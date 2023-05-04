@@ -33,6 +33,17 @@
     justify-content: space-evenly;
 }
 
+/* för volleyboll sidan*/
+.nyheter-v {
+  background-color: rgb(172, 222, 255);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .vrubrik {
   display: flex;
   justify-content: space-between;
@@ -66,7 +77,23 @@
   margin: 1vw;
 }
 
+
 .ntext {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  margin: 1vw;
+}
+
+/* för volleyboll sidan*/
+.htext {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  margin: 1vw;
+}
+
+.rtext {
   display: flex;
   flex-direction: column;
   font-size: large;
@@ -85,14 +112,6 @@
   justify-content: space-between;
 }
 
-.regler {
-  background-color: rgb(172, 222, 255);
-  border: 7px solid rgb(29, 138, 255);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
 .beach {
   background-color: rgb(172, 222, 255);
@@ -106,14 +125,6 @@
   justify-content: space-between;
 }
 
-.historia {
-  background-color: rgb(172, 222, 255);
-  border: 7px solid rgb(29, 138, 255);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
 .nara-dig {
   background-color: rgb(172, 222, 255);
@@ -126,7 +137,25 @@
   flex-direction: column;
   justify-content: space-between;
 }
+/* för volleyboll sidan*/
 
+.regler {
+  background-color: rgb(172, 222, 255);
+  border: 7px solid rgb(29, 138, 255);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.historia {
+  background-color: rgb(172, 222, 255);
+  border: 7px solid rgb(29, 138, 255);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
 .footer {
   background-color: rgb(0, 140, 255);
@@ -293,4 +322,29 @@ h2 {
   float: right;
   padding: 10px;
   margin: 1vw;
+}
+
+.vbplan {
+  margin: 1vw;
+  width: 30%;
+}
+
+@media screen and (max-width: 480px) {
+  .bilder {
+      height: 200px;
+  }
+
+  .nyheter {
+      font-size: 10px;
+  }
+
+  .nyheter-v {
+      font-size: 10px;
+  }
+  .rtext{
+      font-size: 10px;
+  }
+  .htext {
+      font-size: 10px;
+  }
 }

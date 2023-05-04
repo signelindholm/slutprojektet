@@ -16,6 +16,10 @@
     grid-column: 8 / -1;
 }
 
+.nyheter-v {
+    grid-column: 8 / -1;
+}
+
 .volleyboll {
     grid-column: 1 / 5;
 }
@@ -84,6 +88,19 @@
     .footer {
         grid-row: 5;
         grid-column: span 12;
+    }
+    .nyheter-v {
+        grid-row: 3;
+        grid-column: span 12;
+        font-size: 10px;
+    }
+    .regler {
+        grid-column: span 6;
+        font-size: 10px;
+    }
+    .historia {
+        grid-column: span 6;
+        font-size: 10px;
     }
 
     h2 {
