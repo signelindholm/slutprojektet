@@ -43,6 +43,7 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
+/* för volleyboll sidan*/
 
 .vrubrik {
   display: flex;
@@ -65,8 +66,8 @@
 .vtext {
   display: flex;
   flex-direction: column;
-  font-size: large;
-  margin: 1vw;
+  font-size: large;  
+  margin: 0.5vw;
 
 }
 
@@ -90,6 +91,7 @@
   display: flex;
   flex-direction: column;
   font-size: large;
+  justify-content: flex-start;
   margin: 1vw;
 }
 
@@ -99,6 +101,8 @@
   font-size: large;
   margin: 1vw;
 }
+/* för volleyboll sidan*/
+
 
 .volleyboll {
   background-color: rgb(172, 222, 255);
@@ -112,6 +116,10 @@
   justify-content: space-between;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 
 .beach {
   background-color: rgb(172, 222, 255);
@@ -137,8 +145,8 @@
   flex-direction: column;
   justify-content: space-between;
 }
-/* för volleyboll sidan*/
 
+/* för volleyboll sidan*/
 .regler {
   background-color: rgb(172, 222, 255);
   border: 7px solid rgb(29, 138, 255);
@@ -156,6 +164,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+/* för volleyboll sidan*/
 
 .footer {
   background-color: rgb(0, 140, 255);
