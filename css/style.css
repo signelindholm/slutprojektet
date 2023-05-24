@@ -146,6 +146,10 @@ a {
   justify-content: space-between;
 }
 
+.kontakt {
+  margin: 1vw;
+}
+
 /* för volleyboll sidan*/
 .regler {
   background-color: rgb(172, 222, 255);
