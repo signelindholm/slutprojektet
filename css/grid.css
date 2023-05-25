@@ -44,61 +44,15 @@
     grid-column: 7 /-1;
 }
 
-@media screen and (max-width: 1200px) {
-    .container{
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 100px 500px 600px 300px;
-      }
-    
-    .header {
-        grid-column: 1 / -1;
-    }
-    
-    .banner {
-        grid-column: 1 / 9;
-    }
-    
-    .nyheter {
-        grid-column: 9 / -1;
-    }
-    
-    .nyheter-v {
-        grid-column: 8 / -1;
-    }
-    
-    .volleyboll {
-        grid-column: 1 / 5;
-    }
-    
-    .beach {
-        grid-column: 5 / 9;
-    }
-    
-    .nara-dig {
-        grid-column: 9 / -1;
-    }
-    
-    .footer {
-        grid-column: 1 / -1;
-    }
-
-    h2 {
-        font-size: large;
-    }
-
-    p {
-        font-size: 13px;
-    }
-}
-
 
 @media screen and (max-width: 900px) {
     .container{
         display: grid;
-        grid-template-rows: 70px 500px 250px 250px 100px;
+        grid-template-rows: 70px 500px 450px 250px;
       }
-
+      .bilder {
+        height: 400px;
+    }
     .header {
         grid-column: 1 / -1;
     }
@@ -131,10 +85,9 @@
         grid-column: 1 / -1;
     }
 
-    h2 {
-        font-size: large;
+    .h1 {
+        font-size: 20px;
     }
-
     p {
         font-size: 13px;
     }
@@ -145,7 +98,7 @@
 @media screen and (max-width: 480px) {
     .container{
         display: grid;
-        grid-template-rows: 70px 200px 250px 250px 100px;
+        grid-template-rows: 70px 200px 400px 400px 100px;
       }
 
     .bilder {
@@ -206,6 +159,6 @@
     }
 
     p {
-        font-size: 7.5px;
+        font-size: 12px;
     }
 }
