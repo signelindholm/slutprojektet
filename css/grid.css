@@ -44,8 +44,7 @@
     grid-column: 7 /-1;
 }
 
-/*
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     .container{
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -61,7 +60,7 @@
     }
     
     .nyheter {
-        grid-column: 10 / -1;
+        grid-column: 9 / -1;
     }
     
     .nyheter-v {
@@ -83,8 +82,65 @@
     .footer {
         grid-column: 1 / -1;
     }
+
+    h2 {
+        font-size: large;
+    }
+
+    p {
+        font-size: 13px;
+    }
 }
-*/
+
+
+@media screen and (max-width: 900px) {
+    .container{
+        display: grid;
+        grid-template-rows: 70px 500px 250px 250px 100px;
+      }
+
+    .header {
+        grid-column: 1 / -1;
+    }
+    
+    .banner {
+        grid-column: 1 / 9;
+    }
+    
+    .nyheter {
+        grid-column: 9 / -1;
+    }
+    
+    .nyheter-v {
+        grid-column: 8 / -1;
+    }
+    
+    .volleyboll {
+        grid-column: 1 / 5;
+    }
+    
+    .beach {
+        grid-column: 5 / 9;
+    }
+    
+    .nara-dig {
+        grid-column: 9 / -1;
+    }
+    
+    .footer {
+        grid-column: 1 / -1;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+    p {
+        font-size: 13px;
+    }
+  
+}
+
 
 @media screen and (max-width: 480px) {
     .container{
